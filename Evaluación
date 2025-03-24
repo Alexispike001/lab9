@@ -1,0 +1,11 @@
+ ¿Cuál es la diferencia entre F10 (paso sobre la función) y F11 (entrar en la función)?
+ En f10 si la línea contiene una llamada a una función, la ejecuta por completo y salta a la siguiente línea despues de haber realizado la llamada. 
+ Y en F11 si la línea contiene una llamada a una función, entra dentro de ella y permite depurar su ejecución línea por línea.
+
+ ¿Por qué es importante el manejo de excepciones en un programa?
+La extensión permite al sistema operativo y a los programas saber que tipo de datos contiene un archivo.
+
+ ¿Cómo se comporta la pila de llamadas con funciones recursivas?
+Se almacena en la pila una nueva isntancia de la función con sus propias variables locales y parametros. 
+Luego la ejecución se pausa en la llamada recursiva hasta que esta retorne un valor. 
+Para terminar alcanza la condición de parada, las funciones empiezan a salir de la pila en orden inverso.
